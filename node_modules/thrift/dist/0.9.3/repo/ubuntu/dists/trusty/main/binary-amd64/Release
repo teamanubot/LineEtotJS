@@ -1,0 +1,5 @@
+Component: main
+Origin: Apache Thrift
+Label: Apache Thrift Ubuntu PPA
+Architecture: amd64
+Description: Apache Thrift Ubuntu PPA

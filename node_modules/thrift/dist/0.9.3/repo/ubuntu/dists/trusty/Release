@@ -1,0 +1,28 @@
+Origin: Apache Thrift
+Label: Apache Thrift Ubuntu PPA
+Codename: trusty
+Date: Wed, 30 Sep 2015 12:00:40 UTC
+Architectures: i386 amd64
+Components: main
+Description: Apache Thrift Ubuntu PPA
+MD5Sum:
+ 5aa6a0452d29592252e4448d2993db7c 4044 main/binary-i386/Packages
+ fc56e3e5f54ba7156363260bde3dd306 1141 main/binary-i386/Packages.gz
+ 7b02a4b7d5e25a6ea32d5a9838855bed 127 main/binary-i386/Release
+ edee85a434fe6d0309d120658e53af06 9627 main/binary-amd64/Packages
+ 942b72ba368e975a8c5387e49075f8f9 2252 main/binary-amd64/Packages.gz
+ 376ac7216827fe0fa15af6eaeda695eb 128 main/binary-amd64/Release
+SHA1:
+ 2c8383bd2fadc0a16ad85ba9349ab2ae31fee62a 4044 main/binary-i386/Packages
+ dbdcb9c66e331c0386655c4f92553e675b65388f 1141 main/binary-i386/Packages.gz
+ 45deed5d56254b5449817dcfdd2eca1a207c8ba2 127 main/binary-i386/Release
+ e45d2146050c4b5398cba3506797397cd762ea5e 9627 main/binary-amd64/Packages
+ c2fbadd93cca76707d5bf0e90bd8f034243d888e 2252 main/binary-amd64/Packages.gz
+ 37aec8a62f777e0484f55006b2850d371b116f55 128 main/binary-amd64/Release
+SHA256:
+ 16417872c863c2b5a24bbecdc8c66dd66265f916d1d8568ea57ae84d8fed2dd3 4044 main/binary-i386/Packages
+ 25031b916736d3de1f74664fac674260e9bebf7a8b1bf3c277881830a32134a0 1141 main/binary-i386/Packages.gz
+ fa7d921412d455770dc3d30b90a0e8f6cb3b0471742cc87efd680d4f9ba970df 127 main/binary-i386/Release
+ 0d01eae38457692114677e5ea2f6902e62bcb7a208ac928b58fcf197d44ab46b 9627 main/binary-amd64/Packages
+ bbfac47af0e1953a47daae56f8d090e4862af8dccc42bd922051aba6ccdba92e 2252 main/binary-amd64/Packages.gz
+ 961ce65d910b99d6a080a93087a0bc28753b66ba48e0e5fb1326ad35722c05d1 128 main/binary-amd64/Release

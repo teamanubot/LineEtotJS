@@ -1,0 +1,7 @@
+Origin: Apache Thrift
+Label: Apache Thrift Ubuntu PPA
+Codename: trusty
+Architectures: i386 amd64
+Components: main
+Description: Apache Thrift Ubuntu PPA
+

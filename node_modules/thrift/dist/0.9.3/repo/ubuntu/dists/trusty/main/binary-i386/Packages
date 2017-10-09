@@ -1,0 +1,103 @@
+Package: libthrift-cil
+Source: thrift
+Version: 0.9.3
+Architecture: all
+Maintainer: Thrift Developer's <dev@thrift.apache.org>
+Installed-Size: 72
+Depends: cli-common, libmono-corlib1.0-cil (>= 1.0), libmono-system1.0-cil (>= 1.0), libmono-system-web2.0-cil
+Homepage: http://thrift.apache.org/
+Priority: extra
+Section: libs
+Filename: pool/main/t/thrift/libthrift-cil_0.9.3_all.deb
+Size: 27016
+SHA256: 2c6aa6358619818168fdf2b4947f10960ff1ba37c040ca68107d8cf76362477e
+SHA1: ca328c24c3ec86985fb96ed12ee215dedc3b7c70
+MD5sum: 89db98e1de07cd767dd5caf646cb13bc
+Description: CLI bindings for Thrift
+ Thrift is a software framework for scalable cross-language services
+ development. It combines a software stack with a code generation engine to
+ build services that work efficiently and seamlessly.
+ .
+ This package contains the CLI bindings for Thrift. You will need the thrift
+ tool (in the thrift-compiler package) to compile your definition to C#
+ classes, and then the modules in this package will allow you to use those
+ classes in your programs.
+
+Package: libthrift-java
+Source: thrift
+Version: 0.9.3
+Architecture: all
+Maintainer: Thrift Developer's <dev@thrift.apache.org>
+Installed-Size: 236
+Depends: java-gcj-compat | java1-runtime | java2-runtime
+Homepage: http://thrift.apache.org/
+Priority: extra
+Section: libs
+Filename: pool/main/t/thrift/libthrift-java_0.9.3_all.deb
+Size: 212388
+SHA256: 5961c8e6a9d8be2e2a7594ba11418aff3ada07849fa716ddd64a541e2f664cba
+SHA1: da883ed5832bb7be26d244d8d84dbd12471b5c25
+MD5sum: 97dd11f44030b8a16ca61b27f67b39ce
+Description: Java bindings for Thrift
+ Thrift is a software framework for scalable cross-language services
+ development. It combines a software stack with a code generation engine to
+ build services that work efficiently and seamlessly.
+ .
+ This package contains the Java bindings for Thrift. You will need the thrift
+ tool (in the thrift-compiler package) to compile your definition to Java
+ classes, and then the modules in this package will allow you to use those
+ classes in your programs.
+
+Package: libthrift-perl
+Source: thrift
+Version: 0.9.3
+Architecture: all
+Maintainer: Thrift Developer's <dev@thrift.apache.org>
+Installed-Size: 78
+Depends: perl (>= 5.8.0-7)
+Homepage: http://thrift.apache.org/
+Priority: extra
+Section: perl
+Filename: pool/main/t/thrift/libthrift-perl_0.9.3_all.deb
+Size: 14578
+SHA256: 43b2aaa33ae1a792d9894b2cc0c901a366ac2b066a0261a37b49ada309e20aff
+SHA1: 62b5065d7fb664bdd9972f8e4766a0f131fd4b43
+MD5sum: 2e1cec9a0cc2804ee900b35dee1bddea
+Description: Perl bindings for Thrift
+ Thrift is a software framework for scalable cross-language services
+ development. It combines a software stack with a code generation engine to
+ build services that work efficiently and seamlessly.
+ .
+ This package contains the Perl bindings for Thrift. You will need the thrift
+ tool (in the thrift-compiler package) to compile your definition to Perl
+ classes, and then the modules in this package will allow you to use those
+ classes in your programs.
+
+Package: ruby-thrift
+Source: thrift
+Version: 0.9.3
+Architecture: all
+Maintainer: Thrift Developer's <dev@thrift.apache.org>
+Installed-Size: 285
+Depends: ruby | ruby-interpreter
+Breaks: libthrift-ruby
+Replaces: libthrift-ruby
+Provides: libthrift-ruby
+Homepage: http://thrift.apache.org/
+Priority: extra
+Section: libs
+Filename: pool/main/t/thrift/ruby-thrift_0.9.3_all.deb
+Size: 28224
+SHA256: 808c607f45d88998b288aeacfafeeae513c2e73d3913d15997c692c420269d92
+SHA1: 42291ed78a4c8d358817458bd9fa3d25fb2ddd1f
+MD5sum: 49e7a272e46cf7e3e37dd0143c689d44
+Description: Ruby bindings for Thrift
+ Thrift is a software framework for scalable cross-language services
+ development. It combines a software stack with a code generation engine to
+ build services that work efficiently and seamlessly.
+ .
+ This package contains the Ruby bindings for Thrift. You will need the thrift
+ tool (in the thrift-compiler package) to compile your definition to Ruby
+ classes, and then the modules in this package will allow you to use those
+ classes in your programs.
+
