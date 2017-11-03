@@ -9,7 +9,7 @@ check your nodejs version
 
 How to run ?
 ------
-- `git clone https://github.com/rivaimunte/LineEtotJS.git`
+- `git clone https://github.com/teamanubot/LineEtotJS.git`
 - `cd LineEtotJS && npm install`
 - `npm start`
 
