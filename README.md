@@ -1,5 +1,5 @@
 Line Etot JS
-`Version : 0.2.1`
+`Version : 0.2.2`
 
 # require node >= v8.x.x
 check your nodejs version
@@ -15,18 +15,17 @@ How to run ?
 
 New
 -------
-- Penampilan Script
-- Add Contact By Command
-- CekId By Command (Bukan Myid)
-- Broadcast Group
-- Create Group By Command
+- Ban
+- Unban
+- Banlist
+- Fitur Kerang Ajaib
+- Penghapusan Kickall
 
 Note
 -------
 - Jangan Perjual Belikan Script Ini!
 - Ini Alphat Lama Tapi Di Upgrade
 - Gunakan Script Ini Dengan Bijak!
-- Mohon Maaf Ban,Unban,Banlist Di Skip Dulu :(
 
 Still work :construction_worker:
 ----
