@@ -3,7 +3,7 @@ let LINE = require('./main.js');
 console.info("\n\
 =========================================\n\
 BotName: LINE Etot JS\n\
-Version: 0.2.1\n\
+Version: 0.2.2\n\
 Terima Kasih Kepada @Alfathdirk @TCR_TEAM\n\
 =========================================\n\
 \nNOTE : Ini Adalah AlphatJS Lama Buatan @Alfathdirk @TCR_TEAM Dan Ini Telah Dikembangin Oleh @TAB_TEAM\nTolong Untuk Tidak Perjual-Belikan Script Ini!\n\
