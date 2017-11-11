@@ -1153,10 +1153,10 @@ this._sendMessage(seq,"Mohon Maaf Anda Bukan Admin");
 			if(vx[2] == null || typeof vx[2] === "undefined" || !vx[2]){
 			    waitMsg = "yes";
 			    vx[0] = seq.from;vx[1] = txt;
-				seq.text = "";
+				seq.text = "[TAB Staff List]\n";
 				for(var i = 0; i < myStaff.length; i++){
 					let orangnya = await this._getContacts([myStaff[i]]);
-				    seq.text += "[TAB Staff List]\n\n☞ "+orangnya[0].displayName+"";
+				    seq.text += "\n☞ "+orangnya[0].displayName+"";
 				}
 				this._sendMessage(seq,seq.text);
 			    this._sendMessage(seq,"Deleted staff siapa ?");
@@ -1169,6 +1169,9 @@ this._sendMessage(seq,"Mohon Maaf Anda Bukan Admin");
 
        if(txt == "tab:del:staff"){
             if(isAdmin(seq.from))
+            {
+            }
+            else if(isBot(seq.from))
             {
             }
             else if(isBot(seq.from))
