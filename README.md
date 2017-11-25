@@ -7,6 +7,10 @@ check your nodejs version
 [upgrade nodejs](https://google.com/)
 
 
+Line Etot JS Update?
+------
+- [Link](https://gitlab.com/teamanubot/LineEtotJS.git)
+
 How to run ?
 ------
 - `git clone https://github.com/teamanubot/LineEtotJS.git`
