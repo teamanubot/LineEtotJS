@@ -8,15 +8,15 @@ let exec = require('child_process').exec;
 
 var myStaff = [];//Gosah Diisi Mid
 
-const myAdmin = ['Taro Mid Lu Disini Goblok'];
+const myAdmin = ['ucb0022613a97ff32657ebdea72b0dc56'];
 
 const myAssist = [];//Kosongin Aja Ini Gaguna Kntl
 
-const myBot = ['Taro Mid Bot Lu Disini Etot'];
+const myBot = ['u17102931d9ba9bb2cc0940d774cce06f','ua812fe52037a05284ebcb94f4c88b5e','udb84926baa5d2f2916a46ad5e2149e27','u704fc221fcf63211594d9e4bb8a9c035'];
 var banList = [];//Banned list
 var vx = {};var midnornama,pesane,kickhim;var waitMsg = "no";//DO NOT CHANGE THIS
-var komenTL = "AutoLike by Bee\nline://ti/p/~kobe2k17"; //Comment for timeline
-var bcText = "Masukan teks untuk broadcast";
+var komenTL = "AutoLike by Elfox\nline://ti/p/~gueganas"; //Comment for timeline
+var bcText = "Elfox Mah Culun";
 var limitposts = '10'; //Output timeline post
 
 function isAdmin(param) {
@@ -248,7 +248,7 @@ class LINE extends LineAPI {
             {
              let out = new Message();
              out.to = operation.param1;
-             out.text = "Yah Kok Leave? Padahal Belom Minta Pap Naked .-."
+             out.text = "Yah Kok Leave? Jangan Balik-balik yah"
 			     this._client.sendMessage(0, out);
              }
 
@@ -268,7 +268,7 @@ class LINE extends LineAPI {
             {          
                let kam = new Message();
                kam.to = operation.param1;
-               kam.text = "Selamat Datang, Jangan Lupa Berbaur Yah ^_^"
+               kam.text = "Selamat Datang, Semoga Betah Kakak ^_^"
                this._client.sendMessage(0, kam);
               }
 
@@ -524,7 +524,7 @@ class LINE extends LineAPI {
             //this._sendMessage(seq,`Status: \n${JSON.stringify(this.stateStatus)}`);
 			this._sendMessage(seq,isinya);
         } else {
-            this._sendMessage(seq,`Mohon Maaf Anda Bukan Staff Atau Admin~`);
+            this._sendMessage(seq,`Lu Bukan Tuan Gue`);
         }}
     }
 
@@ -1284,19 +1284,19 @@ let { listMember } = await this.searchGroup(seq.to);
             //})
         //}
 
-        if(txt == 'baca read') {
-            this._sendMessage(seq, `Pembacaan Read Dimulai Dari Sekarang.`);
+        if(txt == 'read') {
+            this._sendMessage(seq, `Nih yang cctv`);
             this.removeReaderByGroup(seq.to);
         }
 
-        if(txt == 'hapus pembacaan read') {
+        if(txt == 'clear') {
 
             this.checkReader = []
             this._sendMessage(seq, `Menghapus Data Pembacaan Read`);
         }  
 
 
-        if(txt == 'lihat pembacaan read'){
+        if(txt == 'cctv'){
 
             let rec = await this.recheck(this.checkReader,seq.to);
             const mentions = await this.mention(rec);
@@ -1415,7 +1415,7 @@ let { listMember } = await this.searchGroup(seq.to);
               let reply_jawab=(optreply_jawab[random3]);                            this._sendMessage(seq, `${reply_jawab}`);
               }
 
-        if(cmd == 'Tab:Kick' && isStaff(seq.from)){
+        if(cmd == 'Tab:kick' && isStaff(seq.from)){
            let target = payload.replace('@','');
            let group = await this._getGroups([seq.to]);
            let gm = group[0].members;
@@ -1428,7 +1428,7 @@ let { listMember } = await this.searchGroup(seq.to);
                this._kickMember(seq.to,[target]);
         }
 
-        if(cmd == 'Tab:Kick' && isAdmin(seq.from)){
+        if(cmd == 'Tab:kick' && isAdmin(seq.from)){
            let target = payload.replace('@','');
            let group = await this._getGroups([seq.to]);
            let gm = group[0].members;
@@ -1443,13 +1443,13 @@ let { listMember } = await this.searchGroup(seq.to);
 
         if(cmd == 'Tab:spam' && isStaff(seq.from)) {
             for(var i= 0; i < 10;  i++) {
-               this._sendMessage(seq, 'I Love Hentai~');
+               this._sendMessage(seq, 'Elfox Mah Culun');
         }
     }
 
         if(cmd == 'Tab:spam' && isAdmin(seq.from)) {
             for(var i= 0; i < 10;  i++) {
-               this._sendMessage(seq, 'I Love Hentai~');
+               this._sendMessage(seq, 'Elfox Mah Culun');
         }
     }
 
@@ -1465,7 +1465,7 @@ let { listMember } = await this.searchGroup(seq.to);
         
         if(txt == 'tab:bye') {
            if(isAdmin(seq.from) || isStaff(seq.from)){
-          let txt = await this._sendMessage(seq, 'Kami Dari TeamAnuBot (TAB) Terima Kasih Atas Groupnya Dan Kami Izin Leave~');
+          let txt = await this._sendMessage(seq, 'Team BOT Elfox Mah Culun Izin pamit');
           this._leaveGroup(seq.to);
         }
     }
